@@ -1,6 +1,6 @@
-#Events backboned microservices POC
+# Events backboned microservices POC
 
-##Preparación
+## Preparación
 Para poder correr la prueba en un solo host (local) usaremos contenedores **Docker**. Por ser una prueba de concepto limitaremos el número de brokers de Kafka a 2.
 1. Clonar este repo y hacer ´cd kafka-docker´
 2. Descargar la configuracion de docker-compose necesaria para correr Kafka en Docker (Kafka + Zookeeper) desde https://wurstmeister.github.io/kafka-docker/
